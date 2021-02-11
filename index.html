@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ichat App</title>
+    <!-- because of using defer our script will load in background and when the dom loads then script will load after that -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="cs/style.css">
+    
+</head>
+<body>
+
+    <h1>Welcome to node js chatApp</h1>
+
+    <nav>
+        <img class="logo" src="call.png" alt="">
+    </nav>
+
+    <div class="container">
+        <!-- <div class="message right"></div>
+        <div class="message left"></div> -->
+
+    </div>
+
+    <div class="send">
+        <form action="#" id="container-send">
+            <input type="text" name="messageInp" id="messageInp">
+            <button type="submit" class="btn">SEND</button>
+        </form>
+    </div>
+    
+</body>
+</html>

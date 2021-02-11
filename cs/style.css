@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+/* NAVBAR */
+.logo{
+    display: block;
+    border-radius: 42px;
+    margin: auto;
+    width: 243px;
+    filter: invert(1);
+}
+
+body{
+    background-image: linear-gradient(rgb(104, 50, 81), #dfd1df);
+}
+
+/* CHAT BOX */
+.container{
+    max-width: 80%;
+    margin: 22px auto;
+    background-color: blueviolet;
+    height: 60vh;
+    border-radius: 17px;
+    /* To scroll down the y axis */
+    overflow-y: auto;
+}
+
+.message{
+    background-color: grey;
+    width: 34%;
+    padding: 10px;
+    margin: 8px 5px;
+    border: 2px solid aliceblue;
+    border-radius: 18px;
+}
+.left{
+    float: left;
+    /* clear both means dont allow in one line */
+    clear: both;
+    background-color: yellow;
+
+
+}
+.right{
+    float: right;
+    clear: both;
+    background-color: white;
+
+}
+
+/* SEND CHAT */
+#container-send{
+    margin: auto;
+    text-align: center;
+    margin-top: -18px;
+}
+
+#messageInp{
+    /* padding: 4px 154px;  */
+    border-radius: 18px;
+    width: 76%;
+    outline: none;
+}
+.btn{
+    border-radius: 12px;
+    padding: 4px;
+    outline: none;
+
+   
+}
+.btn:hover{
+   background-color: hotpink;
+    cursor: pointer;
+}
+
+
