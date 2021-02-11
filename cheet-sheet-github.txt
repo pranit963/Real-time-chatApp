@@ -1,0 +1,60 @@
+91797@LAPTOP-2TP3DPE4 MINGW64 ~/Desktop/chatApp (master)
+$ git config --global user.name casso  // This is the command to enter the name
+
+
+91797@LAPTOP-2TP3DPE4 MINGW64 ~/Desktop/chatApp
+$ git config --global user.email "pranittawsalkar369@gmail.com"  // This is the command to enter the email
+
+
+91797@LAPTOP-2TP3DPE4 MINGW64 ~/Desktop/chatApp
+$ touch .gitignore  // This will ignore that files which we dont want it to be upload
+
+
+91797@LAPTOP-2TP3DPE4 MINGW64 ~/Desktop/chatApp
+$ git init  // This command will initialize our project and create a .git folder into it, which is a hidden folder
+Initialized empty Git repository in C:/Users/91797/Desktop/chatApp/.git/
+
+
+91797@LAPTOP-2TP3DPE4 MINGW64 ~/Desktop/chatApp (master)
+$ git add .  // Move my all content to staging area means do not worry 
+warning: LF will be replaced by CRLF in nodeServer/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nodeServer/package.json.
+The file will have its original line endings in your working directory
+
+
+91797@LAPTOP-2TP3DPE4 MINGW64 ~/Desktop/chatApp (master)
+$ git commit -m "Initial commit"  // Here commit is like a taking a snapshot of this project, any changes in project that will be snapshot but here no changes so its a initial commit
+[master (root-commit) 35be753] Initial commit
+ 9 files changed, 1436 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 call.png
+ create mode 100644 cs/style.css
+ create mode 100644 index.html
+ create mode 100644 iphone.mp3
+ create mode 100644 js/client.js
+ create mode 100644 nodeServer/index.js
+ create mode 100644 nodeServer/package-lock.json
+ create mode 100644 nodeServer/package.json
+
+
+91797@LAPTOP-2TP3DPE4 MINGW64 ~/Desktop/chatApp (master)
+$ git status  // To check repository status
+On branch master
+nothing to commit, working tree clean
+
+
+91797@LAPTOP-2TP3DPE4 MINGW64 ~/Desktop/chatApp (master)
+$ git remote add origin git@github.com:pranit963/chatApp.git // Now add ssh key to link our project to github, but we need to create ssh key first in order to link project
+
+
+91797@LAPTOP-2TP3DPE4 MINGW64 ~/Desktop/chatApp (master)
+$ git push origin master  // After creating a ssh key push this command to upload our project
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (14/14), 59.03 KiB | 279.00 KiB/s, done.
+Total 14 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:pranit963/chatApp.git
+ * [new branch]      master -> master
